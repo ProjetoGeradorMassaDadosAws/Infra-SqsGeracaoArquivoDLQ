@@ -10,7 +10,6 @@ terraform {
 provider "aws" {
   ####
   # Sera usado as variaveis de ambiente cadastradas no projeto do codebuild.
-  region = "sa-east-1"
 }
 
 resource "aws_sqs_queue" "sqs_geracao_arquivo_dlq" {
