@@ -1,1 +1,1 @@
-QueueName = "SqsGeracaoArquivo"
+QueueName = "SqsGeracaoArquivo-dlq"
